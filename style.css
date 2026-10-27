@@ -1,0 +1,644 @@
+body {
+    background-color: #324664;
+    margin: 0;
+    padding-top: 150px;
+}
+
+.club{
+    background-color: #324664;
+}
+
+.palmares{
+    background-color: #324664;
+}
+
+.titre{
+    text-align: left;
+    position: static;
+    margin-left: 20px;
+}
+
+.ga{
+    text-align: center;
+}
+
+.paragraphe{
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 60px;
+    background-color: #9FB3FC;
+    border-radius: 50px;
+    border: solid black;
+    max-width: 600px;
+}
+
+#presentation{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#illustration1{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    border-radius: 10px;
+}
+
+#bande{
+    background-color: #324664;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 10;
+    box-shadow: 0 0 50px black;
+}
+
+#logo{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    bottom: -50px;
+    left: 25px;
+    background-color: azure;
+    border-radius: 180px;
+    padding: 5px;
+}
+
+#maison{
+    height: 51px;
+    width: 51px;
+    position: relative;
+    left: 75px;
+    top: 45px;
+    background-color: azure;
+    border-radius: 180px;
+    padding: 15px;
+}
+
+#maison:hover{
+    background-color: #878787;
+}
+
+#club{
+    height: 55px;
+    width: 55px;
+    position: relative;
+    left: 125px;
+    top: 46px;
+    background-color: azure;
+    border-radius: 180px;
+    padding: 15px;
+}
+
+#club:hover{
+    background-color: #878787;
+}
+
+#palmares{
+    height: 53px;
+    width: 53px;
+    position: relative;
+    left: 175px;
+    top: 46px;
+    background-color: azure;
+    border-radius: 180px;
+    padding: 15px;
+}
+
+#palmares:hover{
+    background-color: #878787;
+}
+
+.princ{
+    height: 600px;
+}
+
+.princ img{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #0D0F29;
+}
+
+.princ h1{
+    position: relative;
+    bottom: 600px;
+    font-size: 100px;
+    margin-left: 10px;
+    color: azure;
+}
+
+.princ h2{
+    position: relative;
+    bottom: 750px;
+    font-size: 150px;
+    margin-left: 50px;
+    color: #D4B95B;
+}
+
+.princ p{
+    position: relative;
+    bottom: 825px;
+    font-size: 40px;
+    margin-left: 20px;
+    width: 750px;
+    padding-left: 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.princ2{
+    height: 700px;
+    border-bottom: 2px solid black;
+}
+
+.princ2 img{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    width: 375px;
+    height: 375px;
+    border-radius: 30px;
+}
+
+.princ2 p{
+    position: relative;
+    width: 750px;
+    left: 500px;
+    bottom: 350px;
+    font-size: 30px;
+}
+
+.princ2 h1{
+    position: relative;
+    left: 500px;
+    bottom: 350px;
+    width: 300px;
+    font-size: 40px;
+}
+
+.princ22{
+    position: relative;
+    width: 20%;
+    left: 1300px;
+    bottom: 670px;
+    border-left: 2px solid black;
+    padding-left: 80px;
+}
+
+.princ22 h1{
+    font-size: 35px;
+}
+
+.princ22 p{
+    position: relative;
+    font-size: 30px;
+}
+
+.princ22 img{
+    position: relative;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+.clubprinc{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+#titreclub{
+    position: relative;
+    left: 900px;
+    bottom: 800px;
+    font-size: 150px;
+    width: 700px;
+}
+
+.logoclub{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    width: 800px;
+    left: 900px;
+    bottom: 750px;
+}
+
+#tbl{
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+    border-collapse: collapse;
+}
+
+#tbl2{
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+    border-collapse: collapse;
+}
+
+#tbl3{
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+    border-collapse: collapse;
+}
+
+.tbl td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.tableau{
+    position: relative;
+    font-size: 70px;
+    height: 600px;
+    empty-cells: show;
+}
+
+
+#asmonaco h1{
+    position: relative;
+    left: 650px;
+    bottom: 550px;
+    font-size: 100px;
+    width: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#monacoimage img{
+    position: relative;
+    left: 1400px;
+    bottom: 725px;
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+#tableau1{
+    height: 300px;
+    border-bottom: 2px solid black;
+}
+
+#princ3{
+    display: flex;
+    gap: 200px;
+    border-bottom: 2px solid black;
+    height: 100px;
+}
+
+#princ31{
+    position:relative;
+    left: 20px;
+    bottom: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#princ31 h1{
+    width: 500px;
+    font-size: 50px;
+}
+
+#princ31 li{
+    font-size: 45px;
+}
+
+#princ32 img{
+    position: relative;
+    bottom: 570px;
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
+}
+
+#princ33{
+    position: relative;
+    bottom: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#princ33 h2{
+    width: 500px;
+    font-size: 50px;
+}
+
+#princ33 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#princ33 li{
+    font-size: 50px;
+}
+
+#princ4{
+    border-bottom: 2px solid black;
+    height: 830px;
+}
+
+#princ4 h1{
+    position: relative;
+    left: 740px;
+    width: 450px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#princ4 table{
+    border-collapse: collapse;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 450px;
+}
+
+td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 60px;
+	padding: 20px;
+}
+
+#source{
+    border-bottom: 2px solid black;
+    height: 700px;
+    position: relative;
+}
+
+#source h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+#sourcelogo{
+    width: 600px;
+    position: relative;
+    left: 670px;
+    bottom: 0px;
+    top: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+#sourcelogo img{
+    width: 144px;
+    height: 144px;
+}
+
+#sexytime{
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+}
+
+#psg{
+	position: relative;
+}
+
+#psg h1{
+	position: absolute;
+	font-size: 100px;
+	text-align: center;
+	left: 370px;
+	bottom: 400px;
+	margin-bottom: 100px;
+}
+
+#parissaintgermain:{
+	position: relative;
+	border-bottom: 2px solid black;
+	height: 800px;
+}
+
+#psgimage{
+	position: relative;
+}
+
+#mbappeparis{
+	position: absolute;
+	left: 1350px;
+	bottom: 200px;
+	border-radius: 20px;
+}
+
+#tableau2{
+	border-bottom: 2px solid black;
+	height: 650px;
+}
+
+#realmadrid{
+	position: relative;
+	height: 850px;
+	border-bottom: 2px solid black;
+}
+
+#realmadrid h1{
+	position: absolute;
+	font-size: 100px;
+	text-align: center;
+	left: 600px;
+	bottom: 600px;
+	margin-bottom: 100px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+#tableau3{
+	position: relative;
+	height: 800px;
+}
+
+#tableau3 table{
+	position: absolute;
+	bottom: 0px;
+}
+
+#madridimage{
+	position: relative;
+}
+
+#madridimage img{
+	position: absolute;
+	bottom: -10px;
+	left: 1300px;
+	border-radius: 20px;
+}
+
+#princclub{
+	position: relative;
+    border-bottom: 2px solid black;
+    height: 650px;
+}
+
+#infoclub{
+	position: absolute;
+	left: 1200px;
+}
+
+#infoclub li{
+	font-size: 50px;
+	width: 570px;
+}
+
+#infoclub h1{
+	font-size: 80px;
+	width: 700px;
+}
+
+#infoclub ul{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+#infoclub2 h1{
+	font-size: 80px;
+	width: 700px;
+}
+
+#infoclub2 ol{
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+#infoclub2 li{
+	font-size: 50px;
+	width: 650px;
+}
+
+#infoclub2{
+	position: absolute;
+	left: 20px;
+}
+
+#infoclubimage{
+	position: absolute;
+	left: 760px;
+	top: 75px;
+}
+
+#infoclubimage img{
+	width: 80%;
+	height: 80%;
+	border-radius: 20px;
+}
+
+#ciel{
+    position: absolute;
+    bottom: 0px;
+    left: 460px;
+    height: 60%;
+    width: 50%;
+}
+
+#palprinc{
+	height: 768px;
+	border-bottom: 2px solid black
+}
+
+#palprinc img{
+	position: relative;
+	left: 800px;
+}
+
+#palprinc h1{
+	position: relative;
+	bottom: 750px;
+	left: 30px;
+	font-size: 200px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width: 500px;
+	color: azure;
+}
+
+#palprinc h2{
+	position: relative;
+	bottom: 700px;
+	left: 50px;
+	font-size: 200px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	width: 600px;
+	color: #D4B95B;
+}
+
+#palprinc2{
+	position: relative;
+    height: 700px;
+}
+
+#mbappecoupedumonde{
+    margin-top: 20px;
+	width: 33%;
+	height: 100%;
+    border-radius: 20px;
+}
+
+#palprinc2 h2{
+	position: absolute;
+	left: 700px;
+	bottom: 550px;
+	font-size: 60px;
+	width: 700px;
+}
+
+#palprinc2 ul{
+    position: absolute;
+    left: 700px;
+    bottom: 240px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#mbappeligue{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#trophee{
+    position: absolute;
+    left: 700px;
+    bottom: 0px;
+    display: flex;
+    gap: 80px;
+}
+
+.tropee{
+    width: 10%;
+    height: 10%;
+}
+
+#nationsligue{
+    width: 200px;
+    height: 250px;
+}
